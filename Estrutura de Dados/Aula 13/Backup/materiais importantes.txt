@@ -1,0 +1,13 @@
+http://www.inf.ufes.br/~pdcosta/ensino/2011-1-estruturas-de-dados-cc/slides/Aula15%20%28arvores%29.pdf
+
+http://www.ic.uff.br/~boeres/slides_ed/ed_ArvoresPercursos.pdf
+
+http://webserver2.tecgraf.puc-rio.br/eda/EDA_01_ArvBinBusca.pdf
+
+https://pt.slideshare.net/adorepump/operaes-em-rvores-binrias-presentation
+
+http://www.desafiosdeti.com.br/estrutura-de-dados/arvore-binaria-de-busca/
+
+http://www.alessandrosantos.com.br/emanuel/usp/estrutura_dados/tarefas_e_trabalhos/arvore/AED2_Aula2_ArvoreBinaria.pdf
+
+http://wiki.icmc.usp.br/images/e/e9/ABB.pdf

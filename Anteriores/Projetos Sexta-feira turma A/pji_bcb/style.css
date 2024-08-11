@@ -1,0 +1,327 @@
+body{
+    background-color: #0a835f;
+    margin: 0;
+}
+
+.camadaColor{
+    background: url(imagens/dinheiros.jpg) no-repeat center center/cover;
+    background-position: center center;
+    
+    color: white;;
+    writing-mode: horizontal-tb;
+    border-radius: 5%;
+}
+
+.janela {
+    background-image: linear-gradient( -55deg, #3bbb95f1, #6ac7abee, #90c2b3de);
+   
+    flex-direction: column;
+    align-items: first baseline;
+    border-radius: 5%;
+    padding: 30px;
+}
+
+.janela2 {
+    background-image: linear-gradient( -55deg, #3bbb95f1, #6ac7abee, #90c2b3de);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5%;
+    padding: 30px;
+}
+
+.janela3 {
+    background-image: linear-gradient( -55deg, #3bbb95f1, #6ac7abee, #90c2b3de);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    padding: 30px;
+}
+
+header{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    color: rgb(1, 1, 168);
+    letter-spacing: 3px;
+    font-size: 50px;
+    margin: 0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header p{
+    font-size: 20px;
+    color: rgb(33, 75, 165);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.areaLogin{
+    margin: 60px;
+    background-color: rgba(0, 255, 255, 0.4);
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.areaCadastro{
+    margin: 60px;
+    background-color: rgba(0, 255, 255, 0.4);
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    color: blue;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    height: 20px;
+}
+
+.image{
+    background-image: linear-gradient(-55deg, #000000a2, #00000049, rgba(0, 0, 0, 0)), url(imagens/mulher_feliz.jpg);
+    border-radius: 50%;
+    border: 5px solid rgb(65, 0, 90);
+    background-position: center;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 59);
+}
+
+.msg{
+    margin: 10px;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: purple;
+    color: blue;
+    font-weight: bold;
+}
+
+.botao{
+ background-color: rgb(0, 110, 255);
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+
+.botao:hover{
+    background-color: blue;
+    color: #000;
+}
+
+.botao:active{
+    background-color: #1bb6bb;
+    color: white;
+}
+
+.aviso{
+    font-style: italic;
+    margin: 0;
+}
+
+footer{
+    margin: 40px;
+    font-size: 30px;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form div{
+   
+    justify-content: space-between;
+    align-items: center;
+}
+
+.janela2 p{
+    margin: auto;
+    font-size: 30px;
+}
+
+.janela3 p{
+    margin: auto;
+    font-size: 20px;
+    margin: 10px;
+}
+
+nav{
+    color: white;
+    width: 100%;
+    background-color: blue;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p{
+    margin: 0px;
+    padding: 10px;  
+}
+
+.navegacao{
+    display: flex;
+    margin: 0px 10px;
+}
+
+#separar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px 12px;
+}
+
+.navegacao .div{
+    margin: 3px;
+    background-color: blue;
+    border-radius: 30px;
+    height: 90%;
+    cursor: pointer;
+    color: white;
+}
+
+.navegacao div:hover{
+    background-color: rgb(0, 0, 192);
+}
+
+.navegacao div:active{
+    background-color: rgb(83, 83, 250);
+}
+
+.tituloPagina p{
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+/* Define o estilo básico do botão */
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Define o estilo do botão quando o mouse passa sobre ele */
+.btn:hover,
+.btn:focus,
+.btn:active {
+  color: #333;
+  text-decoration: none;
+  border-color: #333;
+}
+
+/* Define o estilo do botão quando ele está desabilitado */
+.btn[disabled],
+.btn[disabled]:hover,
+.btn[disabled]:focus,
+.btn[disabled]:active {
+  opacity: .65;
+  cursor: not-allowed;
+}
+
+/* Define o estilo do botão quando ele é pressionado */
+.btn:active {
+  background-color: #ccc;
+  outline: 0;
+}
+
+/* Define o estilo do botão quando ele está selecionado */
+.btn.active,
+.btn:active {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+/* Define o estilo do botão primário */
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+/* Define o estilo do botão primário quando o mouse passa sobre ele */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+/* Define o estilo do botão primário quando ele está desabilitado */
+.btn-primary[disabled],
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+/* Define o estilo do botão primário quando ele é pressionado */
+.btn-primary:active {
+  background-color: #204d74;
+  border-color: #122b40;
+}
+
+/* Define o estilo do botão primário quando ele está selecionado */
+.btn-primary.active,
+.btn-primary:active {
+  background-color: #286090;
+  border-color: #204d74;
+}
